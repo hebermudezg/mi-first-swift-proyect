@@ -12,6 +12,11 @@ struct mi_first_swift_proyectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+
+            
         }
     }
 }
+
+
+

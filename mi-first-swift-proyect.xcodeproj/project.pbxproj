@@ -17,6 +17,8 @@
 		AACA1C9127B9A97500219A44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA1C6727B9A97400219A44 /* ContentView.swift */; };
 		AACA1C9227B9A97500219A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA1C6827B9A97500219A44 /* Assets.xcassets */; };
 		AACA1C9327B9A97500219A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACA1C6827B9A97500219A44 /* Assets.xcassets */; };
+		AACA1CA327B9AE3C00219A44 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA1CA227B9AE3C00219A44 /* test.swift */; };
+		AACA1CA527B9D6D600219A44 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA1CA427B9D6D600219A44 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AACA1C8627B9A97500219A44 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACA1C8A27B9A97500219A44 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AACA1C8C27B9A97500219A44 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AACA1CA227B9AE3C00219A44 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		AACA1CA427B9D6D600219A44 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 		AACA1C6027B9A97400219A44 = {
 			isa = PBXGroup;
 			children = (
+				AACA1CA427B9D6D600219A44 /* Test.swift */,
+				AACA1CA227B9AE3C00219A44 /* test.swift */,
 				AACA1C6527B9A97400219A44 /* Shared */,
 				AACA1C7427B9A97500219A44 /* macOS */,
 				AACA1C7D27B9A97500219A44 /* Tests iOS */,
@@ -300,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACA1C9027B9A97500219A44 /* ContentView.swift in Sources */,
+				AACA1CA527B9D6D600219A44 /* Test.swift in Sources */,
+				AACA1CA327B9AE3C00219A44 /* test.swift in Sources */,
 				AACA1C8E27B9A97500219A44 /* mi_first_swift_proyectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
