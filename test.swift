@@ -80,7 +80,7 @@ for value in myArray{
     print(value)
 }
 
-// Diccionarios
+// Diccionarios **
 let myOldDictioanary = Dictionary<String, Int>()
 var myNewDictionary = [String:Int]()
 
@@ -88,7 +88,7 @@ myNewDictionary = ["hola":1, "Esteban":2]
 myNewDictionary["Bermu"] = 03
 print(myNewDictionary["Bermu"]) // Accediendo a un dato
 
-// Bucles, for, while, repeat while
+// Bucles, for, while, repeat while***
 
 for index in 1...5{
     print(index)
@@ -102,4 +102,59 @@ let myString3 = "1234"
 let myInt = Int(myString3)
 print(my Int)
 // El anterior casting me puede devolver un valor o nulo por eso el nombre opcional
+
+print(int! + 10) // Transformacion a no opcional
+
+// Definicion de opcionales
+var myNewString : String?
+print(myNewString)
+
+// Verificar con un if que el valor de un opcional no sea nulo (nil)
+if let myNoNilString = myNewString{
+    print(myNoNilString) // desenpaquetando el valor opcional
+}else{
+    print("El valor es nulo")
+}
+
+// Funciones *****
+func sayHello(){
+    print("Hello Hackermen")
+}
+// llamado a la funcion
+sayHello()
+
+func sayHello(name:String){
+    print("Hello \(name)")
+}
+sayHello("Esteban")
+
+// Funcion con un valor de retorno
+func helloString() -> String{
+    return "Hello"
+}
+
+// Clase o Objeto en swift ****
+class Programador{
+    let name: String
+    let age: Int
+    let languages:[Language]
+    // enum
+    enum Language{
+        case swift
+        case java
+    }
+    // inicializador
+    init(name:String, age:Int, languages:[Language]){
+        self.name = name
+        self.age = age
+        self.languages = languages
+    }
+    // metodos
+    func code(){
+        print("Estoy programando")
+    }
+}
+// Instanciar el objeto
+let miPrimerProgramador = Programador(name: "Heber", age: 26, languages: [.swift, .java])
+
 
